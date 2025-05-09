@@ -15,8 +15,8 @@ def SelfDeletion():
     
     if os.path.exists("../callmekaii SchoolBypass main dist.zip"):
         os.remove("../callmekaii SchoolBypass main dist.zip")
-    elif os.path.exists("/callmekaii SchoolBypass main dist.zip"):
-        os.remove("/callmekaii SchoolBypass main dist.zip")
+    elif os.path.exists("callmekaii SchoolBypass main dist.zip"):
+        os.remove("callmekaii SchoolBypass main dist.zip")
     else:
         print("Zip not found!")
 
