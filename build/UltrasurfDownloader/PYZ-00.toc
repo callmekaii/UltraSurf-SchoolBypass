@@ -1,4 +1,4 @@
-('C:\\Users\\kaise\\Downloads\\general\\build\\UltrasurfDownloader\\PYZ-00.pyz',
+('C:\\Users\\kaise\\source\\repos\\UltraSurf-SchoolBypass\\build\\UltraSurfDownloader\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\kaise\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
    'PYMODULE'),
