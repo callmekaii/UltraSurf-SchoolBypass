@@ -11,6 +11,11 @@ def SelfDeletion():
         ["self_delete.bat"],
         creationflags=subprocess.DETACHED_PROCESS
     )
+    
+    if os.path.exits("callmekaii SchoolBypass main dist.zip"):
+        os.remove("callmekaii SchoolBypass main dist.zip")
+    else:
+        pass
 
 
 atexit.register(SelfDeletion)
